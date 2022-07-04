@@ -2,13 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
- * main - Entry point
- * This program checks if the value is stored in the variable
- * 'n' is positive or negative
- * Return: 0 (Success)
- */
-
 int main(void)
 {
 	int n;
