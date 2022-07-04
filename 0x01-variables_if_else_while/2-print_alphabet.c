@@ -1,8 +1,9 @@
 #include <stdio.h>
 
  /**
-  * main - This program prints every letter of the alphabet in lowercase
-  *  * Return: 0 (Success)
+  * main - Entry point
+  * This program prints every letter of the alphabet in lowercase
+  * Return: 0 (Success)
   */
 
 int main(void)
