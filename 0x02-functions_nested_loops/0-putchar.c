@@ -1,7 +1,13 @@
-#include <stdio.h>
+#include <main.h>
 
-int main()
+/**
+ * main - program that prints _putchar
+ * followed by a newn line
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
 {
-	printf( "_putchar" );
-	return 0;
+	_putchar('_');
+	return (0);
 }
