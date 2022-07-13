@@ -3,10 +3,10 @@
 /**
  * reset_to98 - resets the value of given integer to 98
  * @n: parameter
- * Return: nothing
+ * Return : nothing
  */
 
-void reset_t0_98(int *n)
+void reset_t0_98(int *n);
 {
 	*n = 98;
 }
