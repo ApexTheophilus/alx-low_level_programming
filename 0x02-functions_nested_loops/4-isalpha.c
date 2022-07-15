@@ -1,33 +1,13 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - Entry point, prints the first 50 fibonacci numbers
- *
- * Return: Always 0
- */
-int main(void)
+*_isalpha - controls if a character is alphabetical
+*@c: character to be verified
+*Return: return 0 or 1
+*/
+int _isalpha(int c)
 {
-	int counter = 0;
-	unsigned long first = 0;
-	unsigned long second = 1;
-	unsigned long fib;
+if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+return (1);
 
-	while (counter <= 97)
-	{
-		fib = first + second;
-		if (counter < 97)
-		{
-			printf("%lu, ", fib);
-		}
-		else
-		{
-			printf("%lu", fib);
-		}
-		first = second;
-		second = fib;
-		counter++;
-	}
-	printf("\n");
-	return (0);
+return (0);
 }
-
