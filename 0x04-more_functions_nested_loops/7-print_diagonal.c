@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h
+#include "main.h"
 
 /**
 *print_diagonal - prints a diagonal
@@ -10,6 +10,8 @@
 void print_diagonal(int n)
 {
 	int len, space;
+
+
 
 	if (n > 0)
 	{
